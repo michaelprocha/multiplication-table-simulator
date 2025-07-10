@@ -3,8 +3,17 @@
 
 void home_screen()
 {
-    printf("-----------------------------------------------------------------------");
-    printf("------------------------ multiplication table -------------------------");
-    printf("-----------------------------------------------------------------------");
-    printf("What number out of 10 do you want to know the multiplication table for?");
+    printf("-----------------------------------------------------------------------\n");
+    printf("------------------------ multiplication table -------------------------\n");
+    printf("-----------------------------------------------------------------------\n");
+    printf("What number out of 10 do you want to know the multiplication table for?\n");
+}
+
+void multiplication(int number)
+{
+    for (int i = 0; i < 11; i++)
+    {
+        int result = number * i;
+        printf("the multiplication table of %d x %d is %d\n", number, i, result);
+    }
 }
