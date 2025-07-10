@@ -3,5 +3,6 @@
 
 void home_screen();
 void multiplication(int number);
+void end_screen();
 
 #endif
