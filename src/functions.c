@@ -22,6 +22,6 @@ void end_screen()
 {
     printf("-----------------------------------------------------------------------\n");
     printf("Do you want to stop?\n");
-    printf("1 - Yes\n 2- No\n");
+    printf("1 - Yes\n2 - No\n");
 
 }
