@@ -21,5 +21,7 @@ void multiplication(int number)
 void end_screen()
 {
     printf("-----------------------------------------------------------------------\n");
-    printf("Do you want to continue?\n");
+    printf("Do you want to stop?\n");
+    printf("1 - Yes\n 2- No\n");
+
 }
