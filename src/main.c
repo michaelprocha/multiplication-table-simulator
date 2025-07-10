@@ -4,14 +4,20 @@
 int main(void)
 {
     int number;
+    int stop;
+    
+    do
+    {
+        home_screen();
 
-    home_screen();
-    
-    scanf("%d", &number);
-    
-    multiplication(number);
+        scanf("%d", &number);
 
-    end_screen();
-    
+        multiplication(number);
+
+        end_screen();
+        
+        scanf("%d", &stop);
+    } while (stop != 1);
+
     return 0;
 }
