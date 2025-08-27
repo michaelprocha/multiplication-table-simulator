@@ -1,11 +1,14 @@
-# 🧮 Multiplication Table in Terminal C
+# Multiplication Table in Terminal C
 
 This is a simple program developed in C language that displays the multiplication table of a number, multiplying it from 1 to 10.
-O programa solicita ao usuário um número inteiro e imprime a tabuada desse número no terminal, de acordo com o seguinte formato:
+The program prompts the user for an integer and prints the multiplication table of that number to the terminal.
 
+---
+
+## 📘 Usage example
 ```
 ----- Multiplication Table -----
-Digite um número: 2
+Enter a number: 2
 
 2 x 1 = 2
 2 x 2 = 4
@@ -15,12 +18,18 @@ Digite um número: 2
 
 ---
 
+## 🔖 Features
+
+- Type a number and the multiplication table of the number will be displayed.
+
+---
+
 ## 📌 Requirements
 C compiler (like GCC)
 
 ---
 
-## 🚀 How to compile and run
+## 📦 How to compile and run
 
 ### How to compile: Linux / Mac / Git Bash / Windows:
 ```bash
